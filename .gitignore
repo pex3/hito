@@ -6,6 +6,7 @@
 .history
 .lib/
 dist/*
+project/
 target/
 lib_managed/
 src_managed/
@@ -15,3 +16,18 @@ project/plugins/project/
 # Scala-IDE specific
 .scala_dependencies
 .worksheet
+/.classpath
+/.project
+/src/intellij*/*.iml
+/src/intellij*/*.ipr
+/src/intellij*/*.iws
+**/.cache
+/.idea
+/.settings
+
+# ENSIME specific
+.ensime_cache/
+.ensime
+
+# macOS
+.DS_Store
